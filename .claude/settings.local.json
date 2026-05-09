@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(./gradlew compileDebugKotlin)",
+      "PowerShell(./gradlew testDebugUnitTest --tests \"com.example.myapplication.domain.game.ChessEngineTest\")",
+      "PowerShell(./gradlew testDebugUnitTest --tests \"com.example.myapplication.domain.game.AiPlayerTest\")",
+      "PowerShell(./gradlew testDebugUnitTest --tests \"com.example.myapplication.domain.game.GameManagerTest\")",
+      "Bash(Get-ChildItem *)",
+      "Bash(ffmpeg -version)",
+      "Bash(uv --version)",
+      "Bash(uv sync *)",
+      "Bash(FREESOUND_API_KEY=FkxfB9xLxYIyM2eTfRJEwpAmZ1wyfD7OJMRbuoSE uv run python -c ' *)",
+      "Bash(./gradlew compileDebugKotlin)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
